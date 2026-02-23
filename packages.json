@@ -1,0 +1,32 @@
+{
+  "repository": "ZeroC0deT1me/triton-package",
+  "version": "1.0",
+  "last_updated": "2026-02-22",
+  "packages": [
+    {
+      "id": "ChromeSD",
+      "name": "ChromeSD Browser",
+      "description": "Chromium-based Selenium-driven browser for the Echelon Desktop. Provides embedded web browsing with automation capabilities, Tesseract OCR integration, and customizable scripting via ChromeScript.",
+      "version": "1.0.0",
+      "author": "Echelon",
+      "category": "Browser",
+      "icon": null,
+      "path": "applications/ChromeSD",
+      "install_key": "applications",
+      "dependencies": [
+        {
+          "id": "jcef",
+          "path": "platform/jcef",
+          "install_key": null,
+          "description": "Java Chromium Embedded Framework — native browser engine"
+        },
+        {
+          "id": "tessdata",
+          "path": "platform/tessdata",
+          "install_key": null,
+          "description": "Tesseract OCR trained data files for text recognition"
+        }
+      ]
+    }
+  ]
+}
