@@ -11,19 +11,16 @@
       "author": "Echelon",
       "category": "Browser",
       "icon": null,
-      "path": "applications/ChromeSD",
-      "install_key": "applications",
+      "path": "desktop/container/applications/ChromeSD",
       "dependencies": [
         {
           "id": "jcef",
           "path": "platform/jcef",
-          "install_key": null,
           "description": "Java Chromium Embedded Framework — native browser engine"
         },
         {
           "id": "tessdata",
           "path": "platform/tessdata",
-          "install_key": null,
           "description": "Tesseract OCR trained data files for text recognition"
         }
       ]
