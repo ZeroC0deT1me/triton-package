@@ -1,48 +1,22 @@
 {
   "schema": 2,
   "home": [
-    {
-      "layout": "hero",
-      "items": [
-        "chromesd"
-      ]
-    },
-    {
-      "layout": "spotlight",
-      "title": "Discover",
-      "mode": "random",
-      "count": 4
-    },
-    {
-      "layout": "rail",
-      "title": "Trending",
-      "items": [
-        "chromesd"
-      ]
-    }
+    { "layout": "hero",      "items": ["chromesd"] },
+    { "layout": "spotlight", "title": "Discover", "mode": "random", "count": 4 },
+    { "layout": "rail",      "title": "Trending", "items": ["chromesd"] }
   ],
   "packages": [
     {
       "id": "chromesd",
       "name": "ChromeSD",
-      "description": "Embedded Chromium browser surface for the Echelon desktop.",
-      "version": "1.2.0",
+      "description": "Embedded Chromium browser surface for the Triton desktop.",
+      "version": "1.0.0",
       "author": "ZeroC0deT1me",
-      "category": "Application",
+      "category": "Browser",
       "path": "desktop/container/applications/ChromeSD",
-      "url": "chromesd-v1.2.0/chromesd-1.2.0.zip",
-      "sha256": "REPLACE_WITH_SHA256_OF_THE_ZIP",
-      "size": 4823910,
-      "dependencies": [
-        {
-          "id": "jcef",
-          "path": "platform/jcef",
-          "description": "Chromium Embedded Framework binaries",
-          "url": "jcef-v127/jcef-127.zip",
-          "sha256": "REPLACE_WITH_SHA256_OF_THE_ZIP",
-          "size": 214859302
-        }
-      ]
+      "url": "chromesd-v1.0.0/Chrome.zip",
+      "sha256": "8700f8f95e17dad7cbff9d50c7f89f764bdcbb3a8ee92df7e6309d1576ce8764",
+      "size": 5219021
     }
   ]
 }
