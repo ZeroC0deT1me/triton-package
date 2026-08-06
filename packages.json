@@ -1,27 +1,46 @@
 {
-  "repository": "ZeroC0deT1me/triton-package",
-  "version": "1.0",
-  "last_updated": "2026-02-22",
+  "schema": 2,
+  "home": [
+    {
+      "layout": "hero",
+      "items": [
+        "chromesd"
+      ]
+    },
+    {
+      "layout": "spotlight",
+      "title": "Discover",
+      "mode": "random",
+      "count": 4
+    },
+    {
+      "layout": "rail",
+      "title": "Trending",
+      "items": [
+        "chromesd"
+      ]
+    }
+  ],
   "packages": [
     {
-      "id": "ChromeSD",
-      "name": "ChromeSD Browser",
-      "description": "Chromium-based Selenium-driven browser for the Echelon Desktop. Provides embedded web browsing with automation capabilities, Tesseract OCR integration, and customizable scripting via ChromeScript.",
-      "version": "1.0.0",
-      "author": "Echelon",
-      "category": "Browser",
-      "icon": null,
+      "id": "chromesd",
+      "name": "ChromeSD",
+      "description": "Embedded Chromium browser surface for the Echelon desktop.",
+      "version": "1.2.0",
+      "author": "ZeroC0deT1me",
+      "category": "Application",
       "path": "desktop/container/applications/ChromeSD",
+      "url": "chromesd-v1.2.0/chromesd-1.2.0.zip",
+      "sha256": "REPLACE_WITH_SHA256_OF_THE_ZIP",
+      "size": 4823910,
       "dependencies": [
         {
           "id": "jcef",
           "path": "platform/jcef",
-          "description": "Java Chromium Embedded Framework — native browser engine"
-        },
-        {
-          "id": "tessdata",
-          "path": "platform/tessdata",
-          "description": "Tesseract OCR trained data files for text recognition"
+          "description": "Chromium Embedded Framework binaries",
+          "url": "jcef-v127/jcef-127.zip",
+          "sha256": "REPLACE_WITH_SHA256_OF_THE_ZIP",
+          "size": 214859302
         }
       ]
     }
