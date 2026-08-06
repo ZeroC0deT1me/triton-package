@@ -1,10 +1,11 @@
 {
   "schema": 2,
-    "home": [
-      { "layout": "hero",      "items": ["chromesd"] },
-      { "layout": "spotlight", "title": "Discover", "mode": "random", "count": 4 },
-      { "layout": "rail",      "title": "Trending", "items": ["chromesd"] }
-    ]
+  "home": [
+    {
+      "layout": "hero",
+      "items": [
+        "chromesd"
+      ]
     },
     {
       "layout": "spotlight",
