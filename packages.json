@@ -8,12 +8,12 @@
   "packages": [
     {
       "id": "chromesd",
-      "name": "ChromeSD",
+      "name": "Chrome",
       "description": "Embedded Chromium browser surface for the Triton desktop.",
       "version": "1.0.0",
       "author": "ZeroC0deT1me",
       "category": "Browser",
-      "path": "desktop/container/applications/ChromeSD",
+      "path": "desktop/container/applications/Chrome",
       "url": "chromesd-v1.0.0/Chrome.zip",
       "sha256": "8700f8f95e17dad7cbff9d50c7f89f764bdcbb3a8ee92df7e6309d1576ce8764",
       "size": 5219021
