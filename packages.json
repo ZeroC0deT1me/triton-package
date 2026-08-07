@@ -1,103 +1,133 @@
 {
-    "schema":  2,
-    "home":  [
-                 {
-                     "layout":  "hero",
-                     "items":  [
-                                   "chromesd",
-                                   "youtube"
-                               ]
-                 },
-                 {
-                     "layout":  "spotlight",
-                     "title":  "Discover",
-                     "mode":  "random",
-                     "count":  4
-                 },
-                 {
-                     "layout":  "rail",
-                     "title":  "Trending",
-                     "items":  [
-                                   "chromesd"
-                               ]
-                 }
-             ],
-    "packages":  [
-                     {
-                         "id":  "chromesd",
-                         "name":  "Chrome",
-                         "description":  "Embedded Chromium browser surface for the Triton desktop.",
-                         "version":  "1.1.0",
-                         "author":  "ZeroC0deT1me",
-                         "category":  "Browser",
-                         "path":  "desktop/container/applications/Chrome",
-                         "url":  "chromesd-v1.1.0/Chrome.zip",
-                         "sha256":  "c5819dc5079c7f8fc12e3facc7086e1c56a65adc4074ab2f359b6fdaf6832398",
-                         "size":  4940750,
-                         "art":  {
-                                     "banner":  "art/chromesd/banner.png",
-                                     "logo":  "art/chromesd/desktop_logo.png"
-                                 }
-                     },
-                     {
-                         "id":  "libreoffice",
-                         "name":  "LibreOffice",
-                         "description":  "LibreOffice is a free and open-source office suite, based on OpenOffice, with additional features, better compatibility with Microsoft Office",
-                         "version":  "1.0.1",
-                         "author":  "Libreoffice",
-                         "category":  "Application",
-                         "path":  "desktop/container/applications/LibreOffice",
-                         "url":  "libreoffice-v1.0.1/LibreOffice.zip",
-                         "sha256":  "154090c3d45f55ed337f158f78e55da3c3ed8540076a148f706448c9e2cb1981",
-                         "size":  93165,
-                         "art":  {
-                                     "logo":  "art/libreoffice/desktop_logo.png"
-                                 }
-                     },
-                     {
-                         "id":  "tts",
-                         "name":  "TTS",
-                         "description":  "Text to Speech Application via Troy Voice Interface",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
-                         "category":  "System Application",
-                         "path":  "desktop/container/applications/TTS",
-                         "url":  "tts-v1.0.0/TTS.zip",
-                         "sha256":  "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
-                         "size":  17031,
-                         "art":  {
-                                     "logo":  "art/tts/desktop_logo.png"
-                                 }
-                     },
-                     {
-                         "id":  "chrome-youtube",
-                         "name":  "Youtube",
-                         "description":  "PWA version of Youtube via Triton Chrome(SD)",
-                         "version":  "1.0.1",
-                         "author":  "ZeroC0deT1me",
-                         "category":  "Desktop Application",
-                         "path":  "desktop/container/applications/Youtube",
-                         "url":  "chrome-youtube-v1.0.1/Youtube.zip",
-                         "sha256":  "0b338cad899339152194577acd45c0fb55921b814877d58129f26b90377a2afa",
-                         "size":  53313,
-                         "art":  {
-                                     "logo":  "art/chrome-youtube/desktop_logo.png"
-                                 }
-                     },
-                     {
-                         "id":  "youtube",
-                         "name":  "Youtube",
-                         "description":  "PWA version of Youtube via Triton Chrome(SD)",
-                         "version":  "1.0.2",
-                         "author":  "ZeroC0deT1me",
-                         "category":  "Chrome Application",
-                         "path":  "desktop/container/applications/Youtube",
-                         "url":  "youtube-v1.0.2/Youtube.zip",
-                         "sha256":  "0b338cad899339152194577acd45c0fb55921b814877d58129f26b90377a2afa",
-                         "size":  53313,
-                         "art":  {
-                                     "logo":  "art/youtube/desktop_logo.png"
-                                 }
-                     }
-                 ]
+  "schema": 2,
+  "home": [
+    { "layout": "hero",      "items": ["chromesd"] },
+    { "layout": "spotlight", "title": "Discover", "mode": "random", "count": 4 },
+    { "layout": "rail",      "title": "Trending", "items": ["chromesd"] },
+    { "layout": "rail",      "title": "System Tools",
+      "items": ["watchtower", "vortex", "proteus", "synapse"] }
+  ],
+  "packages": [
+    {
+      "id": "chromesd",
+      "name": "Chrome",
+      "description": "Embedded Chromium browser surface for the Triton desktop.",
+      "version": "1.1.0",
+      "author": "ZeroC0deT1me",
+      "category": "Browser",
+      "path": "desktop/container/applications/Chrome",
+      "url": "chromesd-v1.1.0/Chrome.zip",
+      "sha256": "c5819dc5079c7f8fc12e3facc7086e1c56a65adc4074ab2f359b6fdaf6832398",
+      "size": 4940750,
+      "art": {
+        "banner": "art/chromesd/banner.png",
+        "logo": "art/chromesd/desktop_logo.png"
+      }
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "description": "LibreOffice is a free and open-source office suite, based on OpenOffice, with additional features, better compatibility with Microsoft Office",
+      "version": "1.0.1",
+      "author": "Libreoffice",
+      "category": "Application",
+      "path": "desktop/container/applications/LibreOffice",
+      "url": "libreoffice-v1.0.1/LibreOffice.zip",
+      "sha256": "154090c3d45f55ed337f158f78e55da3c3ed8540076a148f706448c9e2cb1981",
+      "size": 93165,
+      "art": {
+        "logo": "art/libreoffice/desktop_logo.png"
+      }
+    },
+    {
+      "id": "tts",
+      "name": "TTS",
+      "description": "Text to Speech Application via Troy Voice Interface",
+      "version": "1.0.0",
+      "author": "ZeroC0deT1me",
+      "category": "System Application",
+      "path": "desktop/container/applications/TTS",
+      "url": "tts-v1.0.0/TTS.zip",
+      "sha256": "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
+      "size": 17031,
+      "art": {
+        "logo": "art/tts/desktop_logo.png"
+      }
+    },
+    {
+      "id": "youtube",
+      "name": "Youtube",
+      "description": "PWA version of Youtube via Triton Chrome(SD)",
+      "version": "1.0.2",
+      "author": "ZeroC0deT1me",
+      "category": "Chrome Application",
+      "path": "desktop/container/applications/Youtube",
+      "url": "youtube-v1.0.2/Youtube.zip",
+      "sha256": "0b338cad899339152194577acd45c0fb55921b814877d58129f26b90377a2afa",
+      "size": 53313,
+      "art": {
+        "logo": "art/youtube/desktop_logo.png"
+      }
+    },
+    {
+      "id": "watchtower",
+      "name": "WatchTower",
+      "description": "Privacy and Security Management Interface for Triton",
+      "version": "0.0.0",
+      "author": "ZeroC0deT1me",
+      "category": "Security",
+      "path": "desktop/container/applications/WatchTower",
+      "url": "watchtower-v0.0.0/WatchTower.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "art": {
+        "logo": "art/watchtower/desktop_logo.png"
+      }
+    },
+    {
+      "id": "vortex",
+      "name": "Vortex",
+      "description": "Triton Modification Loader Interface",
+      "version": "0.0.0",
+      "author": "ZeroC0deT1me",
+      "category": "System Tool",
+      "path": "desktop/container/applications/Vortex",
+      "url": "vortex-v0.0.0/Vortex.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "art": {
+        "logo": "art/vortex/desktop_logo.png"
+      }
+    },
+    {
+      "id": "proteus",
+      "name": "Proteus",
+      "description": "Triton Framework Visualizer",
+      "version": "0.0.0",
+      "author": "ZeroC0deT1me",
+      "category": "Developer Tool",
+      "path": "desktop/container/applications/Proteus",
+      "url": "proteus-v0.0.0/Proteus.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "art": {
+        "logo": "art/proteus/desktop_logo.png"
+      }
+    },
+    {
+      "id": "synapse",
+      "name": "Synapse",
+      "description": "Triton Node Graph Editor",
+      "version": "0.0.0",
+      "author": "ZeroC0deT1me",
+      "category": "Developer Tool",
+      "path": "desktop/container/applications/Synapse",
+      "url": "synapse-v0.0.0/Synapse.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "art": {
+        "logo": "art/synapse/desktop_logo.png"
+      }
+    }
+  ]
 }
