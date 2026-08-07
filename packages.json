@@ -47,7 +47,7 @@
                          "category":  "Application",
                          "path":  "desktop/container/applications/LibreOffice",
                          "url":  "libreoffice-v1.0.0/LibreOffice.zip",
-                         "sha256":  "41ce0c2d79ad6b4ef973306aac45ec0f1d8d9032ea106676bc64f4019206cccd",
+                         "sha256":  "154090c3d45f55ed337f158f78e55da3c3ed8540076a148f706448c9e2cb1981",
                          "size":  93165,
                          "art":  {
                                      "logo":  "art/libreoffice/desktop_logo.png"
