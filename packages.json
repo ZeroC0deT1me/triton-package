@@ -52,6 +52,21 @@
                          "art":  {
                                      "logo":  "art/libreoffice/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "tts",
+                         "name":  "TTS",
+                         "description":  "Text to Speech Application via Troy Voice Interface",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/TTS",
+                         "url":  "tts-v1.0.0/TTS.zip",
+                         "sha256":  "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
+                         "size":  17031,
+                         "art":  {
+                                     "logo":  "art/tts/desktop_logo.png"
+                                 }
                      }
                  ]
 }
