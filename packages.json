@@ -1,11 +1,35 @@
 {
   "schema": 2,
   "home": [
-    { "layout": "hero",      "items": ["chromesd"] },
-    { "layout": "spotlight", "title": "Discover", "mode": "random", "count": 4 },
-    { "layout": "rail",      "title": "Trending", "items": ["chromesd"] },
-    { "layout": "rail",      "title": "System Tools",
-      "items": ["watchtower", "vortex", "proteus", "synapse"] }
+    {
+      "layout": "hero",
+      "items": [
+        "chromesd"
+      ]
+    },
+    {
+      "layout": "spotlight",
+      "title": "Discover",
+      "mode": "random",
+      "count": 4
+    },
+    {
+      "layout": "rail",
+      "title": "Trending",
+      "items": [
+        "chromesd"
+      ]
+    },
+    {
+      "layout": "rail",
+      "title": "System Tools",
+      "items": [
+        "watchtower",
+        "vortex",
+        "proteus",
+        "synapse"
+      ]
+    }
   ],
   "packages": [
     {
@@ -88,13 +112,13 @@
       "id": "vortex",
       "name": "Vortex",
       "description": "Triton Modification Loader Interface",
-      "version": "0.0.0",
+      "version": "1.0.0",
       "author": "ZeroC0deT1me",
       "category": "System Tool",
       "path": "desktop/container/applications/Vortex",
-      "url": "vortex-v0.0.0/Vortex.zip",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-      "size": 0,
+      "url": "vortex-v1.0.0/Vortex.zip",
+      "sha256": "7103bfc3958a5d6e6b07c5554b736ca5d5e88de4d119a2f28248064d6378463e",
+      "size": 1150315,
       "art": {
         "logo": "art/vortex/desktop_logo.png"
       }
