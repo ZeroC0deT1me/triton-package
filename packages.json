@@ -37,6 +37,21 @@
                                      "banner":  "art/chromesd/banner.png",
                                      "logo":  "art/chromesd/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "libreoffice",
+                         "name":  "LibreOffice",
+                         "description":  "LibreOffice is a free and open-source office suite, based on OpenOffice, with additional features, better compatibility with Microsoft Office",
+                         "version":  "1.0.0",
+                         "author":  "Libreoffice",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/LibreOffice",
+                         "url":  "libreoffice-v1.0.0/LibreOffice.zip",
+                         "sha256":  "9c4843120b84f8099d836a3d24685f35b6cb3c501abd3f0473f7a5ea9da61464",
+                         "size":  93102,
+                         "art":  {
+                                     "logo":  "art/libreoffice/desktop_logo.png"
+                                 }
                      }
                  ]
 }
