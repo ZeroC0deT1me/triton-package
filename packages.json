@@ -1,22 +1,42 @@
 {
-  "schema": 2,
-  "home": [
-    { "layout": "hero",      "items": ["chromesd"] },
-    { "layout": "spotlight", "title": "Discover", "mode": "random", "count": 4 },
-    { "layout": "rail",      "title": "Trending", "items": ["chromesd"] }
-  ],
-  "packages": [
-    {
-      "id": "chromesd",
-      "name": "Chrome",
-      "description": "Embedded Chromium browser surface for the Triton desktop.",
-      "version": "1.0.0",
-      "author": "ZeroC0deT1me",
-      "category": "Browser",
-      "path": "desktop/container/applications/Chrome",
-      "url": "chromesd-v1.0.0/Chrome.zip",
-      "sha256": "8700f8f95e17dad7cbff9d50c7f89f764bdcbb3a8ee92df7e6309d1576ce8764",
-      "size": 5219021
-    }
-  ]
+    "schema":  2,
+    "home":  [
+                 {
+                     "layout":  "hero",
+                     "items":  [
+                                   "chromesd"
+                               ]
+                 },
+                 {
+                     "layout":  "spotlight",
+                     "title":  "Discover",
+                     "mode":  "random",
+                     "count":  4
+                 },
+                 {
+                     "layout":  "rail",
+                     "title":  "Trending",
+                     "items":  [
+                                   "chromesd"
+                               ]
+                 }
+             ],
+    "packages":  [
+                     {
+                         "id":  "chromesd",
+                         "name":  "Chrome",
+                         "description":  "Embedded Chromium browser surface for the Triton desktop.",
+                         "version":  "1.1.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Browser",
+                         "path":  "desktop/container/applications/Chrome",
+                         "url":  "chromesd-v1.1.0/Chrome.zip",
+                         "sha256":  "c5819dc5079c7f8fc12e3facc7086e1c56a65adc4074ab2f359b6fdaf6832398",
+                         "size":  4940750,
+                         "art":  {
+                                     "banner":  "art/chromesd/banner.png",
+                                     "logo":  "art/chromesd/desktop_logo.png"
+                                 }
+                     }
+                 ]
 }
