@@ -83,6 +83,21 @@
                          "art":  {
                                      "logo":  "art/chrome-youtube/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "youtube",
+                         "name":  "Youtube",
+                         "description":  "PWA version of Youtube via Triton Chrome(SD)",
+                         "version":  "1.0.2",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Chrome Application",
+                         "path":  "desktop/container/applications/Youtube",
+                         "url":  "youtube-v1.0.2/Youtube.zip",
+                         "sha256":  "0b338cad899339152194577acd45c0fb55921b814877d58129f26b90377a2afa",
+                         "size":  53313,
+                         "art":  {
+                                     "logo":  "art/youtube/desktop_logo.png"
+                                 }
                      }
                  ]
 }
