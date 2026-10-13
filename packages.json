@@ -179,7 +179,7 @@
                      {
                          "id":  "arMode_manager",
                          "name":  "Mode Manager",
-                         "description":  "Triton DesktopÃ¢â‚¬â„¢s display-mode controller",
+                         "description":  "Triton DesktopÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s display-mode controller",
                          "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
@@ -189,6 +189,21 @@
                          "size":  197902,
                          "art":  {
                                      "logo":  "art/arMode_manager/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "soundboard",
+                         "name":  "SoundBoard",
+                         "description":  "",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/SoundBoard",
+                         "url":  "soundboard-v1.0.0/SoundBoard.zip",
+                         "sha256":  "149b89da38d336852348c8ae4512d1de01211e4928b9237cdecc7fb4b655f5ce",
+                         "size":  444556,
+                         "art":  {
+                                     "logo":  "art/soundboard/desktop_logo.png"
                                  }
                      }
                  ]
