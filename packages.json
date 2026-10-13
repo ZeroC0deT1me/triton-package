@@ -14,10 +14,12 @@
       "count": 4
     },
     {
-      "layout": "rail",
+      "layout": "galaxy",
       "title": "Trending",
       "items": [
-        "chromesd"
+        "chromesd",
+        "youtube",
+        "tts"
       ]
     },
     {
