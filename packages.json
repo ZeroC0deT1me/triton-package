@@ -154,21 +154,23 @@
                          "art":  {
                                      "logo":  "art/synapse/desktop_logo.png"
                                  }
-                     },
+                     },            
                      {
-                         "id":  "triton-jpc",
-                         "name":  "JPC",
-                         "description":  "The fast x86 PC emulator in 100% pure Java",
-                         "version":  "1.0.0",
-                         "author":  "ianopolous",
-                         "category":  "Emulator",
-                         "path":  "desktop/container/applications/JPC",
-                         "url":  "triton-jpc-v1.0.0/JPC.zip",
-                         "sha256":  "ce8ae0db9293295834f36828988ddd9ab511cd73570198d09e436f9486b73717",
-                         "size":  664757775,
-                         "art":  {
-                                     "logo":  "art/triton-jpc/desktop_logo.png"
-                                 }
-                     }
+                        "id":  "triton-jpc",
+                        "name":  "JPC",
+                        "tagline":  "The fast x86 PC emulator in 100% pure Java",
+                        "description":  "JPC is a fast modern x86 PC emulator capable of booting Windows up to Windows 95 (and Windows 98 in safe mode) and some graphical Linuxes. It has a full featured graphical debugger with time travel mode along with standard features like break and watch points.",
+                        "version":  "1.0.0",
+                        "author":  "ianopolous",
+                        "category":  "Emulator",
+                        "path":  "desktop/container/applications/JPC",
+                        "url":  "triton-jpc-v1.0.0/JPC.zip",
+                        "sha256":  "ce8ae0db9293295834f36828988ddd9ab511cd73570198d09e436f9486b73717",
+                        "size":  664757775,
+                        "art":  {
+                                "logo":  "art/triton-jpc/desktop_logo.png"
+                            }
+                    }
+
                  ]
 }
