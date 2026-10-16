@@ -206,6 +206,21 @@
                          "art":  {
                                      "logo":  "art/soundboard/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "mode-manager",
+                         "name":  "Mode Manager",
+                         "description":  "",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Mode Manager",
+                         "url":  "mode-manager-v1.0.0/Mode-Manager.zip",
+                         "sha256":  "63089422f299fd5a5c111cf0ec2503e300759563348b3ccd68763758ffc79634",
+                         "size":  55294,
+                         "art":  {
+                                     "logo":  "art/mode-manager/desktop_logo.png"
+                                 }
                      }
                  ]
 }
