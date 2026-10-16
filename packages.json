@@ -95,8 +95,8 @@
                                  },
                          "requires":  [
                                           {
-                                              "id":  "chromesd",
-                                              "min":  "1.2.0"
+                                              "id":  "meridian",
+                                              "min":  "1.0.0"
                                           }
                                       ]
                      },
@@ -179,7 +179,7 @@
                      {
                          "id":  "arMode_manager",
                          "name":  "Mode Manager",
-                         "description":  "Triton DesktopÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s display-mode controller",
+                         "description":  "Triton DesktopÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s display-mode controller",
                          "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
