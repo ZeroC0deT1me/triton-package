@@ -1,210 +1,211 @@
 {
-    "schema": 2,
-    "home": [
-        {
-            "layout": "hero",
-            "items": [
-                "meridian"
-            ]
-        },
-        {
-            "layout": "spotlight",
-            "title": "Discover",
-            "mode": "random",
-            "count": 4
-        },
-        {
-            "layout": "galaxy",
-            "title": "Trending",
-            "items": [
-                "meridian",
-                "youtube",
-                "tts"
-            ]
-        },
-        {
-            "layout": "rail",
-            "title": "System Tools",
-            "items": [
-                "watchtower",
-                "vortex",
-                "proteus",
-                "synapse"
-            ]
-        }
-    ],
-    "packages": [
-        {
-            "id": "meridian",
-            "name": "Meridian",
-            "description": "Triton's own web browser, built on Chromium through JCEF and designed to live inside the desktop rather than float on top of it. Tabs, bookmarks, extensions, site-apps and an in-house security pipeline, plus Java snap scripts against the current page from the Meridian Controls panel, with DevTools and a CDP debug port for automation and inspection.",
-            "version": "1.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "Browser",
-            "path": "desktop/container/applications/Meridian",
-            "url": "meridian-v1.0.0/Meridian.zip",
-            "sha256": "0ef88ed5c37384d7deb012a25689bad81211ffbc17f0016663831f8cc9b39546",
-            "size": 5597391,
-            "art": {
-                "logo": "art/meridian/desktop_logo.png"
-            }
-        },
-        {
-            "id": "libreoffice",
-            "name": "LibreOffice",
-            "description": "LibreOffice is a free and open-source office suite, based on OpenOffice, with additional features, better compatibility with Microsoft Office",
-            "version": "1.0.1",
-            "author": "Libreoffice",
-            "category": "Application",
-            "path": "desktop/container/applications/LibreOffice",
-            "url": "libreoffice-v1.0.1/LibreOffice.zip",
-            "sha256": "154090c3d45f55ed337f158f78e55da3c3ed8540076a148f706448c9e2cb1981",
-            "size": 93165,
-            "art": {
-                "logo": "art/libreoffice/desktop_logo.png"
-            }
-        },
-        {
-            "id": "tts",
-            "name": "TTS",
-            "description": "Text to Speech Application via Troy Voice Interface",
-            "version": "1.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "System Application",
-            "path": "desktop/container/applications/TTS",
-            "url": "tts-v1.0.0/TTS.zip",
-            "sha256": "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
-            "size": 17031,
-            "art": {
-                "logo": "art/tts/desktop_logo.png"
-            }
-        },
-        {
-            "id": "youtube",
-            "name": "Youtube",
-            "description": "PWA version of YouTube via Triton Meridian",
-            "version": "1.0.3",
-            "author": "ZeroC0deT1me",
-            "category": "Meridian Application",
-            "path": "desktop/container/applications/Youtube",
-            "url": "youtube-v1.0.3/Youtube.zip",
-            "sha256": "27813f2f55d31dcd27d1e8a776861d066852335a1f746a38cee92f1a4003ccc2",
-            "size": 53313,
-            "art": {
-                "logo": "art/youtube/desktop_logo.png"
-            },
-            "requires": [
-                {
-                    "id": "meridian",
-                    "min": "1.0.0"
-                }
-            ]
-        },
-        {
-            "id": "watchtower",
-            "name": "WatchTower",
-            "description": "Privacy and Security Management Interface for Triton",
-            "version": "0.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "Security",
-            "path": "desktop/container/applications/WatchTower",
-            "url": "watchtower-v0.0.0/WatchTower.zip",
-            "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-            "size": 0,
-            "art": {
-                "logo": "art/watchtower/desktop_logo.png"
-            }
-        },
-        {
-            "id": "vortex",
-            "name": "Vortex",
-            "description": "Triton Modification Loader Interface",
-            "version": "1.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "System Tool",
-            "path": "desktop/container/applications/Vortex",
-            "url": "vortex-v1.0.0/Vortex.zip",
-            "sha256": "7103bfc3958a5d6e6b07c5554b736ca5d5e88de4d119a2f28248064d6378463e",
-            "size": 1150315,
-            "art": {
-                "logo": "art/vortex/desktop_logo.png"
-            }
-        },
-        {
-            "id": "proteus",
-            "name": "Proteus",
-            "description": "Triton Framework Visualizer",
-            "version": "0.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "Developer Tool",
-            "path": "desktop/container/applications/Proteus",
-            "url": "proteus-v0.0.0/Proteus.zip",
-            "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-            "size": 0,
-            "art": {
-                "logo": "art/proteus/desktop_logo.png"
-            }
-        },
-        {
-            "id": "synapse",
-            "name": "Synapse",
-            "description": "Triton Node Graph Editor",
-            "version": "0.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "Developer Tool",
-            "path": "desktop/container/applications/Synapse",
-            "url": "synapse-v0.0.0/Synapse.zip",
-            "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-            "size": 0,
-            "art": {
-                "logo": "art/synapse/desktop_logo.png"
-            }
-        },
-        {
-            "id": "triton-jpc",
-            "name": "JPC",
-            "tagline": "The fast x86 PC emulator in 100% pure Java",
-            "description": "JPC is a fast modern x86 PC emulator capable of booting Windows up to Windows 95 (and Windows 98 in safe mode) and some graphical Linuxes. It has a full featured graphical debugger with time travel mode along with standard features like break and watch points.",
-            "version": "1.0.0",
-            "author": "ianopolous",
-            "category": "Application",
-            "path": "desktop/container/applications/JPC",
-            "url": "triton-jpc-v1.0.0/JPC.zip",
-            "sha256": "ce8ae0db9293295834f36828988ddd9ab511cd73570198d09e436f9486b73717",
-            "size": 664757775,
-            "art": {
-                "logo": "art/triton-jpc/desktop_logo.png"
-            }
-        },
-        {
-            "id": "arMode_manager",
-            "name": "Mode Manager",
-            "description": "Triton Desktop's display-mode controller",
-            "version": "1.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "System Application",
-            "path": "desktop/container/applications/Mode Manager",
-            "url": "arMode_manager-v1.0.0/Mode Manager.zip",
-            "sha256": "54b554610c73552cf8ae1510cdd44a3c6a48173935d5c5f0d32364a1d113200e",
-            "size": 197902,
-            "art": {
-                "logo": "art/arMode_manager/desktop_logo.png"
-            }
-        },
-        {
-            "id": "soundboard",
-            "name": "SoundBoard",
-            "description": "",
-            "version": "1.0.0",
-            "author": "ZeroC0deT1me",
-            "category": "System Application",
-            "path": "desktop/container/applications/SoundBoard",
-            "url": "soundboard-v1.0.0/SoundBoard.zip",
-            "sha256": "149b89da38d336852348c8ae4512d1de01211e4928b9237cdecc7fb4b655f5ce",
-            "size": 444556,
-            "art": {
-                "logo": "art/soundboard/desktop_logo.png"
-            }
-        }
-    ]
+    "schema":  2,
+    "home":  [
+                 {
+                     "layout":  "hero",
+                     "items":  [
+                                   "meridian"
+                               ]
+                 },
+                 {
+                     "layout":  "spotlight",
+                     "title":  "Discover",
+                     "mode":  "random",
+                     "count":  4
+                 },
+                 {
+                     "layout":  "galaxy",
+                     "title":  "Trending",
+                     "items":  [
+                                   "meridian",
+                                   "youtube",
+                                   "tts"
+                               ]
+                 },
+                 {
+                     "layout":  "rail",
+                     "title":  "System Tools",
+                     "items":  [
+                                   "watchtower",
+                                   "vortex",
+                                   "proteus",
+                                   "synapse"
+                               ]
+                 }
+             ],
+    "packages":  [
+                     {
+                         "id":  "meridian",
+                         "name":  "Meridian",
+                         "description":  "Triton\u0027s own web browser, built on Chromium through JCEF and designed to live inside the desktop rather than float on top of it. Tabs, bookmarks, extensions, site-apps and an in-house security pipeline, plus Java snap scripts against the current page from the Meridian Controls panel, with DevTools and a CDP debug port for automation and inspection.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Browser",
+                         "path":  "desktop/container/applications/Meridian",
+                         "url":  "meridian-v1.0.0/Meridian.zip",
+                         "sha256":  "0ef88ed5c37384d7deb012a25689bad81211ffbc17f0016663831f8cc9b39546",
+                         "size":  5597391,
+                         "art":  {
+                                     "logo":  "art/meridian/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "libreoffice",
+                         "name":  "LibreOffice",
+                         "description":  "LibreOffice is a free and open-source office suite, based on OpenOffice, with additional features, better compatibility with Microsoft Office",
+                         "version":  "1.0.1",
+                         "author":  "Libreoffice",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/LibreOffice",
+                         "url":  "libreoffice-v1.0.1/LibreOffice.zip",
+                         "sha256":  "154090c3d45f55ed337f158f78e55da3c3ed8540076a148f706448c9e2cb1981",
+                         "size":  93165,
+                         "art":  {
+                                     "logo":  "art/libreoffice/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "tts",
+                         "name":  "TTS",
+                         "description":  "Text to Speech Application via Troy Voice Interface",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/TTS",
+                         "url":  "tts-v1.0.0/TTS.zip",
+                         "sha256":  "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
+                         "size":  17031,
+                         "art":  {
+                                     "logo":  "art/tts/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "youtube",
+                         "name":  "Youtube",
+                         "description":  "PWA version of YouTube via Triton Meridian",
+                         "version":  "1.0.3",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Meridian Application",
+                         "path":  "desktop/container/applications/Youtube",
+                         "url":  "youtube-v1.0.3/Youtube.zip",
+                         "sha256":  "27813f2f55d31dcd27d1e8a776861d066852335a1f746a38cee92f1a4003ccc2",
+                         "size":  53313,
+                         "art":  {
+                                     "logo":  "art/youtube/desktop_logo.png"
+                                 },
+                         "requires":  [
+                                          {
+                                              "id":  "meridian",
+                                              "min":  "1.0.0"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "watchtower",
+                         "name":  "WatchTower",
+                         "description":  "Privacy and Security Management Interface for Triton",
+                         "version":  "0.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Security",
+                         "path":  "desktop/container/applications/WatchTower",
+                         "url":  "watchtower-v0.0.0/WatchTower.zip",
+                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+                         "size":  0,
+                         "art":  {
+                                     "logo":  "art/watchtower/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "vortex",
+                         "name":  "Vortex",
+                         "description":  "Triton Modification Loader Interface",
+                         "version":  "1.0.1",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Tool",
+                         "path":  "desktop/container/applications/Vortex",
+                         "url":  "vortex-v1.0.1/Vortex.zip",
+                         "sha256":  "d3f5001419967c112db00b71891f3dcd819589907590cb3b5feb4c4cfd773939",
+                         "size":  1150478,
+                         "art":  {
+                                     "banner":  "art/vortex/banner.png",
+                                     "logo":  "art/vortex/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "proteus",
+                         "name":  "Proteus",
+                         "description":  "Triton Framework Visualizer",
+                         "version":  "0.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Developer Tool",
+                         "path":  "desktop/container/applications/Proteus",
+                         "url":  "proteus-v0.0.0/Proteus.zip",
+                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+                         "size":  0,
+                         "art":  {
+                                     "logo":  "art/proteus/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "synapse",
+                         "name":  "Synapse",
+                         "description":  "Triton Node Graph Editor",
+                         "version":  "0.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Developer Tool",
+                         "path":  "desktop/container/applications/Synapse",
+                         "url":  "synapse-v0.0.0/Synapse.zip",
+                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
+                         "size":  0,
+                         "art":  {
+                                     "logo":  "art/synapse/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "triton-jpc",
+                         "name":  "JPC",
+                         "tagline":  "The fast x86 PC emulator in 100% pure Java",
+                         "description":  "JPC is a fast modern x86 PC emulator capable of booting Windows up to Windows 95 (and Windows 98 in safe mode) and some graphical Linuxes. It has a full featured graphical debugger with time travel mode along with standard features like break and watch points.",
+                         "version":  "1.0.0",
+                         "author":  "ianopolous",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/JPC",
+                         "url":  "triton-jpc-v1.0.0/JPC.zip",
+                         "sha256":  "ce8ae0db9293295834f36828988ddd9ab511cd73570198d09e436f9486b73717",
+                         "size":  664757775,
+                         "art":  {
+                                     "logo":  "art/triton-jpc/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "arMode_manager",
+                         "name":  "Mode Manager",
+                         "description":  "Triton Desktop\u0027s display-mode controller",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/Mode Manager",
+                         "url":  "arMode_manager-v1.0.0/Mode Manager.zip",
+                         "sha256":  "54b554610c73552cf8ae1510cdd44a3c6a48173935d5c5f0d32364a1d113200e",
+                         "size":  197902,
+                         "art":  {
+                                     "logo":  "art/arMode_manager/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "soundboard",
+                         "name":  "SoundBoard",
+                         "description":  "",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/SoundBoard",
+                         "url":  "soundboard-v1.0.0/SoundBoard.zip",
+                         "sha256":  "149b89da38d336852348c8ae4512d1de01211e4928b9237cdecc7fb4b655f5ce",
+                         "size":  444556,
+                         "art":  {
+                                     "logo":  "art/soundboard/desktop_logo.png"
+                                 }
+                     }
+                 ]
 }
