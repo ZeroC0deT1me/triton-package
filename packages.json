@@ -43,8 +43,8 @@
                          "category":  "Browser",
                          "path":  "desktop/container/applications/Meridian",
                          "url":  "meridian-v1.0.0/Meridian.zip",
-                         "sha256":  "0ef88ed5c37384d7deb012a25689bad81211ffbc17f0016663831f8cc9b39546",
-                         "size":  5597391,
+                         "sha256":  "68f5aa27211f9cb840339385c2916f8d94e9db9821600aab0bb2b09315dd9f1f",
+                         "size":  5587825,
                          "art":  {
                                      "logo":  "art/meridian/desktop_logo.png"
                                  }
