@@ -179,7 +179,7 @@
                      {
                          "id":  "arMode_manager",
                          "name":  "Mode Manager",
-                         "description":  "Triton DesktopÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s display-mode controller",
+                         "description":  "Triton DesktopÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s display-mode controller",
                          "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
@@ -204,6 +204,21 @@
                          "size":  444556,
                          "art":  {
                                      "logo":  "art/soundboard/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "meridian",
+                         "name":  "Meridian",
+                         "description":  "",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Meridian",
+                         "url":  "meridian-v1.0.0/Meridian.zip",
+                         "sha256":  "0ef88ed5c37384d7deb012a25689bad81211ffbc17f0016663831f8cc9b39546",
+                         "size":  5597391,
+                         "art":  {
+                                     "logo":  "art/meridian/desktop_logo.png"
                                  }
                      }
                  ]
