@@ -83,13 +83,13 @@
                          "id":  "youtube",
                          "name":  "Youtube",
                          "description":  "PWA version of YouTube via Triton Meridian",
-                         "version":  "1.0.3",
+                         "version":  "1.0.4",
                          "author":  "ZeroC0deT1me",
                          "category":  "Meridian Application",
                          "path":  "desktop/container/applications/Youtube",
-                         "url":  "youtube-v1.0.3/Youtube.zip",
-                         "sha256":  "27813f2f55d31dcd27d1e8a776861d066852335a1f746a38cee92f1a4003ccc2",
-                         "size":  53313,
+                         "url":  "youtube-v1.0.4/Youtube.zip",
+                         "sha256":  "5720298f1ad2e82b1ab53b0f31c2b6a16686f565244b8c568205704f9096b6f8",
+                         "size":  53436,
                          "art":  {
                                      "logo":  "art/youtube/desktop_logo.png"
                                  },
