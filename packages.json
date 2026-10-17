@@ -171,8 +171,8 @@
                          "category":  "Application",
                          "path":  "desktop/container/applications/JPC",
                          "url":  "triton-jpc-v1.0.0/JPC.zip",
-                         "sha256":  "ce8ae0db9293295834f36828988ddd9ab511cd73570198d09e436f9486b73717",
-                         "size":  664757775,
+                         "sha256":  "c5e1017225cffa97d5cfb0474accdcb3e3786eb5dcfec5d41c944a21af2a41a9",
+                         "size":  664251093,
                          "art":  {
                                      "logo":  "art/triton-jpc/desktop_logo.png"
                                  }
