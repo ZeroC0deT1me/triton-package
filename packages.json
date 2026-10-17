@@ -201,8 +201,8 @@
                          "category":  "System Application",
                          "path":  "desktop/container/applications/SoundBoard",
                          "url":  "soundboard-v1.0.0/SoundBoard.zip",
-                         "sha256":  "1022f43941c30c0ba34cb1adc9d658c73bf868a26f3895e675552934fd18b3b2",
-                         "size":  64461,
+                         "sha256":  "338dfb9bbd97d32d15e329f3a06ddff448a28460b59ac14be14b4f72a678ff16",
+                         "size":  64798,
                          "art":  {
                                      "logo":  "art/soundboard/desktop_logo.png"
                                  }
