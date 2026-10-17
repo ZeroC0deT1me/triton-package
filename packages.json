@@ -216,7 +216,7 @@
                          "category":  "Application",
                          "path":  "desktop/container/applications/Mode Manager",
                          "url":  "mode-manager-v1.0.0/Mode-Manager.zip",
-                         "sha256":  "63089422f299fd5a5c111cf0ec2503e300759563348b3ccd68763758ffc79634",
+                         "sha256":  "887140bac9f4423b64f5c6f2506fd2501672f66286e7285473a5339630addadc",
                          "size":  55294,
                          "art":  {
                                      "logo":  "art/mode-manager/desktop_logo.png"
