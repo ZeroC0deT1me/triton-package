@@ -37,14 +37,15 @@
                      {
                          "id":  "meridian",
                          "name":  "Meridian",
-                         "description":  "Triton\u0027s own web browser, built on Chromium through JCEF and designed to live inside the desktop rather than float on top of it. Tabs, bookmarks, extensions, site-apps and an in-house security pipeline, plus Java snap scripts against the current page from the Meridian Controls panel, with DevTools and a CDP debug port for automation and inspection.",
-                         "version":  "1.1.1",
+                         "tagline":  "Triton\u0027s browser and web runtime, built on Chromium.",
+                         "description":  "Meridian is Triton\u0027s Chromium-based browser and web runtime. Built on **JCEF** (Java Chromium Embedded Framework), it renders the modern web inside Echelon without depending on an outside browser.\n\nMeridian doesn\u0027t only show pages. Web interfaces and Progressive Web Apps run as first-class Echelon apps: a PWA or self-hosted web UI opens in its own Meridian window, sits on the desktop as a tile, and behaves like any other Triton program.\n\n## Selenium integration\n* **Scripting:** inject and run scripts against loaded pages to customize, extend, or connect web content to Triton.\n* **Automation:** drive pages programmatically for navigation, form filling, data extraction, and repeatable workflows.\n* **Web apps as Triton apps:** wrap web interfaces and PWAs so they launch, dock, and run inside Echelon.\n\nFormerly ChromeSD. Meridian is the bridge between Triton and the web.",
+                         "version":  "1.1.2",
                          "author":  "ZeroC0deT1me",
                          "category":  "Browser",
                          "path":  "desktop/container/applications/Meridian",
-                         "url":  "meridian-v1.1.1/Meridian.zip",
-                         "sha256":  "6362deb88e549ff052752a48699485f7813b50c21ebd3a7b43b35e805bd676c4",
-                         "size":  5593944,
+                         "url":  "meridian-v1.1.2/Meridian.zip",
+                         "sha256":  "2f3c2cc92e4097603a48b1f7af43f0770d6e20d06a69ddcaa28a543be3103f4a",
+                         "size":  5594669,
                          "art":  {
                                      "logo":  "art/meridian/desktop_logo.png"
                                  }
