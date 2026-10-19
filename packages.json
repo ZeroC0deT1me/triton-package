@@ -236,6 +236,10 @@
                          "art":  {
                                      "logo":  "art/gods-eye-view/desktop_logo.png"
                                  },
+                         "categories":  [
+                                            "Application",
+                                            "Meridian Application"
+                                        ],
                          "requires":  [
                                           {
                                               "id":  "meridian",
