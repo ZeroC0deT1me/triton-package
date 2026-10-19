@@ -235,7 +235,13 @@
                          "size":  135888,
                          "art":  {
                                      "logo":  "art/gods-eye-view/desktop_logo.png"
-                                 }
+                                 },
+                         "requires":  [
+                                          {
+                                              "id":  "meridian",
+                                              "min":  "1.0.0"
+                                          }
+                                      ]
                      }
                  ]
 }
