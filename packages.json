@@ -68,13 +68,13 @@
                          "id":  "tts",
                          "name":  "TTS",
                          "description":  "Text to Speech Application via Troy Voice Interface",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
                          "path":  "desktop/container/applications/TTS",
-                         "url":  "tts-v1.0.0/TTS.zip",
-                         "sha256":  "b06ab5e58b9d94d2c7397ac0165b69404b4a8ff1edfe331f1f8aadba350f84ca",
-                         "size":  43984,
+                         "url":  "tts-v1.0.1/TTS.zip",
+                         "sha256":  "65a742c6521f3dc934f5894f0a52304b01e3182fd8e018d1736a17ca981aeb42",
+                         "size":  47472,
                          "art":  {
                                      "logo":  "art/tts/desktop_logo.png"
                                  }
@@ -178,21 +178,6 @@
                                  }
                      },
                      {
-                         "id":  "arMode_manager",
-                         "name":  "Mode Manager",
-                         "description":  "Triton Desktop\u0027s display-mode controller",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
-                         "category":  "System Application",
-                         "path":  "desktop/container/applications/Mode Manager",
-                         "url":  "arMode_manager-v1.0.0/Mode Manager.zip",
-                         "sha256":  "54b554610c73552cf8ae1510cdd44a3c6a48173935d5c5f0d32364a1d113200e",
-                         "size":  197902,
-                         "art":  {
-                                     "logo":  "art/arMode_manager/desktop_logo.png"
-                                 }
-                     },
-                     {
                          "id":  "soundboard",
                          "name":  "SoundBoard",
                          "description":  "",
@@ -210,10 +195,10 @@
                      {
                          "id":  "mode-manager",
                          "name":  "Mode Manager",
-                         "description":  "",
+                         "description":  "Triton Desktop\u0027s display-mode controller",
                          "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
-                         "category":  "Application",
+                         "category":  "System Application",
                          "path":  "desktop/container/applications/Mode Manager",
                          "url":  "mode-manager-v1.0.0/Mode-Manager.zip",
                          "sha256":  "5938d072723f9a14a7b3ab325a4144314c639ec04c411c600089370769dde388",
@@ -228,7 +213,7 @@
                          "description":  "",
                          "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
-                         "category":  "Application",
+                         "category":  "System Application",
                          "path":  "desktop/container/applications/Terminal",
                          "url":  "terminal-v1.0.0/Terminal.zip",
                          "sha256":  "ad8438623f837c28f072a7d5476c5a8105d55277011be3329c5d32f385709763",
