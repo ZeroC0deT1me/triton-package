@@ -135,13 +135,13 @@
                          "id":  "proteus",
                          "name":  "Proteus",
                          "description":  "Triton Framework Visualizer",
-                         "version":  "0.0.0",
+                         "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "Developer Tool",
                          "path":  "desktop/container/applications/Proteus",
-                         "url":  "proteus-v0.0.0/Proteus.zip",
-                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
-                         "size":  0,
+                         "url":  "proteus-v1.0.0/Proteus.zip",
+                         "sha256":  "7298aacfbd7bacc05fa1c823c0dadb941ad212d554ca6ee24ef6b5c519121a00",
+                         "size":  1615664,
                          "art":  {
                                      "logo":  "art/proteus/desktop_logo.png"
                                  }
