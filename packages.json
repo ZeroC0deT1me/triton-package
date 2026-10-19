@@ -73,8 +73,8 @@
                          "category":  "System Application",
                          "path":  "desktop/container/applications/TTS",
                          "url":  "tts-v1.0.0/TTS.zip",
-                         "sha256":  "e4e2e31aa1641ad25c1ca2931d4413db6028b38e4e87b2f66ace4551387c3b7f",
-                         "size":  17031,
+                         "sha256":  "b06ab5e58b9d94d2c7397ac0165b69404b4a8ff1edfe331f1f8aadba350f84ca",
+                         "size":  43984,
                          "art":  {
                                      "logo":  "art/tts/desktop_logo.png"
                                  }
