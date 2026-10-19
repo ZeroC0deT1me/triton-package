@@ -91,7 +91,6 @@
                          "sha256":  "5720298f1ad2e82b1ab53b0f31c2b6a16686f565244b8c568205704f9096b6f8",
                          "size":  53436,
                          "art":  {
-                                     "logo":  "art/youtube/desktop_logo.png"
                                  },
                          "requires":  [
                                           {
