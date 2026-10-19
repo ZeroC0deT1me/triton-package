@@ -221,6 +221,21 @@
                          "art":  {
                                      "logo":  "art/mode-manager/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "terminal",
+                         "name":  "Terminal",
+                         "description":  "",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Terminal",
+                         "url":  "terminal-v1.0.0/Terminal.zip",
+                         "sha256":  "ad8438623f837c28f072a7d5476c5a8105d55277011be3329c5d32f385709763",
+                         "size":  49281,
+                         "art":  {
+                                     "logo":  "art/terminal/desktop_logo.png"
+                                 }
                      }
                  ]
 }
