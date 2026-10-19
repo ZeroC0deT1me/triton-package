@@ -150,13 +150,13 @@
                          "id":  "synapse",
                          "name":  "Synapse",
                          "description":  "Triton Node Graph Editor",
-                         "version":  "0.0.0",
+                         "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "Developer Tool",
                          "path":  "desktop/container/applications/Synapse",
-                         "url":  "synapse-v0.0.0/Synapse.zip",
-                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
-                         "size":  0,
+                         "url":  "synapse-v1.0.0/Synapse.zip",
+                         "sha256":  "f82ab9b16c723dc6f3823a520e72b84c4daac271795adce4656cec09564a5c26",
+                         "size":  44671,
                          "art":  {
                                      "logo":  "art/synapse/desktop_logo.png"
                                  }
