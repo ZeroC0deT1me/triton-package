@@ -221,6 +221,21 @@
                          "art":  {
                                      "logo":  "art/terminal/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "gods-eye-view",
+                         "name":  "God\u0027s Eye View",
+                         "description":  "A spy-satellite simulator in your browser, Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.",
+                         "version":  "1.0.0",
+                         "author":  "bilawalsidhu",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/God\u0027s Eye View",
+                         "url":  "gods-eye-view-v1.0.0/Gods-Eye-View.zip",
+                         "sha256":  "657ffd2d55b6520df26cad9db8b7302526490cea06c641fd85cee4a2defeaac3",
+                         "size":  135888,
+                         "art":  {
+                                     "logo":  "art/gods-eye-view/desktop_logo.png"
+                                 }
                      }
                  ]
 }
