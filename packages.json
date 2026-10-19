@@ -242,6 +242,27 @@
                                               "min":  "1.0.0"
                                           }
                                       ]
+                     },
+                     {
+                         "id":  "window-95",
+                         "name":  "Window 95",
+                         "description":  "A Java application that uses the JPC emulator to boot and run a real Windows 95 installation, launching it as a virtual PC.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Window 95",
+                         "url":  "window-95-v1.0.0/Window-95.zip",
+                         "sha256":  "9619bcc263e6cc4a37bb990ff1d6d6f112ac21e725665cc57f505060f54bccb7",
+                         "size":  81995207,
+                         "art":  {
+                                     "logo":  "art/window-95/desktop_logo.png"
+                                 },
+                         "requires":  [
+                                          {
+                                              "id":  "triton-jpc",
+                                              "min":  "1.0.0"
+                                          }
+                                      ]
                      }
                  ]
 }
