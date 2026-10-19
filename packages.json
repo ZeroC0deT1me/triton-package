@@ -38,13 +38,13 @@
                          "id":  "meridian",
                          "name":  "Meridian",
                          "description":  "Triton\u0027s own web browser, built on Chromium through JCEF and designed to live inside the desktop rather than float on top of it. Tabs, bookmarks, extensions, site-apps and an in-house security pipeline, plus Java snap scripts against the current page from the Meridian Controls panel, with DevTools and a CDP debug port for automation and inspection.",
-                         "version":  "1.0.0",
+                         "version":  "1.1.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "Browser",
                          "path":  "desktop/container/applications/Meridian",
-                         "url":  "meridian-v1.0.0/Meridian.zip",
-                         "sha256":  "68f5aa27211f9cb840339385c2916f8d94e9db9821600aab0bb2b09315dd9f1f",
-                         "size":  5587825,
+                         "url":  "meridian-v1.1.0/Meridian.zip",
+                         "sha256":  "4c857da1340d751445f6a72e9216cc5af0b54063e491062d41b088eb5d3d4bf8",
+                         "size":  5591796,
                          "art":  {
                                      "logo":  "art/meridian/desktop_logo.png"
                                  }
