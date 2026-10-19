@@ -166,11 +166,11 @@
                          "name":  "JPC",
                          "tagline":  "The fast x86 PC emulator in 100% pure Java",
                          "description":  "JPC is a fast modern x86 PC emulator capable of booting Windows up to Windows 95 (and Windows 98 in safe mode) and some graphical Linuxes. It has a full featured graphical debugger with time travel mode along with standard features like break and watch points.",
-                         "version":  "1.0.0",
+                         "version":  "1.1.0",
                          "author":  "ianopolous",
                          "category":  "Application",
                          "path":  "desktop/container/applications/JPC",
-                         "url":  "triton-jpc-v1.0.0/JPC.zip",
+                         "url":  "triton-jpc-v1.1.0/JPC.zip",
                          "sha256":  "de9d6e9c3df0a572ca3d140c16ed5c639cb2da0682466d63c4e99f5d185af7fc",
                          "size":  664251320,
                          "art":  {
