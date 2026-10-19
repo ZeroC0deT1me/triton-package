@@ -181,13 +181,13 @@
                          "id":  "soundboard",
                          "name":  "SoundBoard",
                          "description":  "",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
                          "path":  "desktop/container/applications/SoundBoard",
-                         "url":  "soundboard-v1.0.0/SoundBoard.zip",
-                         "sha256":  "338dfb9bbd97d32d15e329f3a06ddff448a28460b59ac14be14b4f72a678ff16",
-                         "size":  64798,
+                         "url":  "soundboard-v1.0.1/SoundBoard.zip",
+                         "sha256":  "e46ababc502efcb37d329b4f96c84c69cc17e1404120246c537a460cd98994a4",
+                         "size":  73868,
                          "art":  {
                                      "logo":  "art/soundboard/desktop_logo.png"
                                  }
