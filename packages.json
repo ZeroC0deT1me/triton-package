@@ -283,6 +283,21 @@
                          "art":  {
                                      "logo":  "art/anasynthe/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "games",
+                         "name":  "Games",
+                         "description":  "Your game library in one place: browse, search and play",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Games",
+                         "url":  "games-v1.0.0/Games.zip",
+                         "sha256":  "2b03bf556801d179842d7492aea9004b81434baa75f1e1f8c80d411294a056c8",
+                         "size":  85880,
+                         "art":  {
+                                     "logo":  "art/games/desktop_logo.png"
+                                 }
                      }
                  ]
 }
