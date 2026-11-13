@@ -176,7 +176,8 @@
                          "sha256":  "de9d6e9c3df0a572ca3d140c16ed5c639cb2da0682466d63c4e99f5d185af7fc",
                          "size":  664251320,
                          "art":  {
-                                     "logo":  "art/triton-jpc/desktop_logo.png"
+                                     "logo":  "art/triton-jpc/desktop_logo.png",
+                                     "banner":  "art/triton-jpc/banner.png"
                                  }
                      },
                      {
@@ -261,7 +262,8 @@
                          "sha256":  "9619bcc263e6cc4a37bb990ff1d6d6f112ac21e725665cc57f505060f54bccb7",
                          "size":  81995207,
                          "art":  {
-                                     "logo":  "art/window-95/desktop_logo.png"
+                                     "logo":  "art/window-95/desktop_logo.png",
+                                     "banner":  "art/window-95/banner.png"
                                  },
                          "requires":  [
                                           {
