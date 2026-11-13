@@ -39,13 +39,13 @@
                          "name":  "Meridian",
                          "tagline":  "Triton\u0027s browser and web runtime, built on Chromium.",
                          "description":  "Meridian is Triton\u0027s Chromium-based browser and web runtime. Built on **JCEF** (Java Chromium Embedded Framework), it renders the modern web inside Echelon without depending on an outside browser.\n\nMeridian doesn\u0027t only show pages. Web interfaces and Progressive Web Apps run as first-class Echelon apps: a PWA or self-hosted web UI opens in its own Meridian window, sits on the desktop as a tile, and behaves like any other Triton program.\n\n## Selenium integration\n* **Scripting:** inject and run scripts against loaded pages to customize, extend, or connect web content to Triton.\n* **Automation:** drive pages programmatically for navigation, form filling, data extraction, and repeatable workflows.\n* **Web apps as Triton apps:** wrap web interfaces and PWAs so they launch, dock, and run inside Echelon.\n\nFormerly ChromeSD. Meridian is the bridge between Triton and the web.",
-                         "version":  "1.1.2",
+                         "version":  "1.1.3",
                          "author":  "ZeroC0deT1me",
                          "category":  "Browser",
                          "path":  "desktop/container/applications/Meridian",
-                         "url":  "meridian-v1.1.2/Meridian.zip",
-                         "sha256":  "2f3c2cc92e4097603a48b1f7af43f0770d6e20d06a69ddcaa28a543be3103f4a",
-                         "size":  5594669,
+                         "url":  "meridian-v1.1.3/Meridian.zip",
+                         "sha256":  "b7764eb075e413230fef806649cc14785a98ba40510c07ecbba03f09093a475e",
+                         "size":  12446427,
                          "art":  {
                                      "logo":  "art/meridian/desktop_logo.png"
                                  }
@@ -296,13 +296,14 @@
                          "sha256":  "2b03bf556801d179842d7492aea9004b81434baa75f1e1f8c80d411294a056c8",
                          "size":  85880,
                          "art":  {
+                                     "banner":  "art/games/banner.png",
                                      "logo":  "art/games/desktop_logo.png"
                                  }
                      },
                      {
                          "id":  "openidea",
                          "name":  "OpenIDEA",
-                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEAâ€“style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
                          "version":  "1.0.0",
                          "author":  "l0ng-ai",
                          "category":  "Developer Tool",
