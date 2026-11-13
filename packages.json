@@ -298,6 +298,21 @@
                          "art":  {
                                      "logo":  "art/games/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "openidea",
+                         "name":  "OpenIDEA",
+                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+                         "version":  "1.0.0",
+                         "author":  "l0ng-ai",
+                         "category":  "Developer Tool",
+                         "path":  "desktop/container/applications/OpenIDEA",
+                         "url":  "openidea-v1.0.0/OpenIDEA.zip",
+                         "sha256":  "8e40bd3860e5599ab8a6c4956f129298bb5a6692be069edced1e6f75ced421ce",
+                         "size":  33244,
+                         "art":  {
+                                     "logo":  "art/openidea/desktop_logo.png"
+                                 }
                      }
                  ]
 }
