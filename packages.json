@@ -268,6 +268,21 @@
                                               "min":  "1.0.0"
                                           }
                                       ]
+                     },
+                     {
+                         "id":  "anasynthe",
+                         "name":  "Anasynthe",
+                         "description":  "Rebuilds strip-shredded documents from scans or photos, with a trained edge matcher and OCR verification.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Anasynthe",
+                         "url":  "anasynthe-v1.0.0/Anasynthe.zip",
+                         "sha256":  "d2d687843be2c00287c49b48876aec42aa5444f8d6bcce8cee336b812faba258",
+                         "size":  4892574,
+                         "art":  {
+                                     "logo":  "art/anasynthe/desktop_logo.png"
+                                 }
                      }
                  ]
 }
