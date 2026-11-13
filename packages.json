@@ -192,7 +192,8 @@
                          "sha256":  "e46ababc502efcb37d329b4f96c84c69cc17e1404120246c537a460cd98994a4",
                          "size":  73868,
                          "art":  {
-                                     "logo":  "art/soundboard/desktop_logo.png"
+                                     "logo":  "art/soundboard/desktop_logo.png",
+                                     "banner":  "art/soundboard/banner.png"
                                  }
                      },
                      {
@@ -207,7 +208,8 @@
                          "sha256":  "5938d072723f9a14a7b3ab325a4144314c639ec04c411c600089370769dde388",
                          "size":  61581,
                          "art":  {
-                                     "logo":  "art/mode-manager/desktop_logo.png"
+                                     "logo":  "art/mode-manager/desktop_logo.png",
+                                     "banner":  "art/mode-manager/banner.png"
                                  }
                      },
                      {
@@ -222,7 +224,8 @@
                          "sha256":  "ad8438623f837c28f072a7d5476c5a8105d55277011be3329c5d32f385709763",
                          "size":  49281,
                          "art":  {
-                                     "logo":  "art/terminal/desktop_logo.png"
+                                     "logo":  "art/terminal/desktop_logo.png",
+                                     "banner":  "art/terminal/banner.png"
                                  }
                      },
                      {
