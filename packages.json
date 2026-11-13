@@ -47,7 +47,8 @@
                          "sha256":  "6039bbcc9b4f485404e8f9655ff48f696b9e3fd10d468f221349b9d8a71c8de1",
                          "size":  6877316,
                          "art":  {
-                                     "logo":  "art/meridian/desktop_logo.png"
+                                     "logo":  "art/meridian/desktop_logo.png",
+                                     "banner":  "art/meridian/banner.png"
                                  }
                      },
                      {
