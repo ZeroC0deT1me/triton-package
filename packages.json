@@ -296,14 +296,20 @@
                          "sha256":  "2b03bf556801d179842d7492aea9004b81434baa75f1e1f8c80d411294a056c8",
                          "size":  85880,
                          "art":  {
-                                     "banner":  "art/games/banner.png",
-                                     "logo":  "art/games/desktop_logo.png"
-                                 }
+                                     "logo":  "art/games/desktop_logo.png",
+                                     "banner":  "art/games/banner.png"
+                                 },
+                         "requires":  [
+                                          {
+                                              "id":  "meridian",
+                                              "min":  "1.1.3"
+                                          }
+                                      ]
                      },
                      {
                          "id":  "openidea",
                          "name":  "OpenIDEA",
-                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEAÃ¢â‚¬â€œstyle keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEAÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
                          "version":  "1.0.0",
                          "author":  "l0ng-ai",
                          "category":  "Developer Tool",
