@@ -312,7 +312,7 @@
                      {
                          "id":  "openidea",
                          "name":  "OpenIDEA",
-                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEAÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+                         "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
                          "version":  "1.0.0",
                          "author":  "l0ng-ai",
                          "category":  "Developer Tool",
