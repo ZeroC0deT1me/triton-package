@@ -168,16 +168,16 @@
                          "name":  "JPC",
                          "tagline":  "The fast x86 PC emulator in 100% pure Java",
                          "description":  "JPC is a fast modern x86 PC emulator capable of booting Windows up to Windows 95 (and Windows 98 in safe mode) and some graphical Linuxes. It has a full featured graphical debugger with time travel mode along with standard features like break and watch points.",
-                         "version":  "1.1.0",
+                         "version":  "1.1.1",
                          "author":  "ianopolous",
                          "category":  "Application",
                          "path":  "desktop/container/applications/JPC",
-                         "url":  "triton-jpc-v1.1.0/JPC.zip",
-                         "sha256":  "de9d6e9c3df0a572ca3d140c16ed5c639cb2da0682466d63c4e99f5d185af7fc",
-                         "size":  664251320,
+                         "url":  "triton-jpc-v1.1.1/JPC.zip",
+                         "sha256":  "bbc1a15ee8ead29cc75800c7c113e6e83c64a3bef2a46d98643270c6e4f35fd0",
+                         "size":  664240614,
                          "art":  {
-                                     "logo":  "art/triton-jpc/desktop_logo.png",
-                                     "banner":  "art/triton-jpc/banner.png"
+                                     "banner":  "art/triton-jpc/banner.png",
+                                     "logo":  "art/triton-jpc/desktop_logo.png"
                                  }
                      },
                      {
@@ -232,13 +232,13 @@
                          "id":  "gods-eye-view",
                          "name":  "God\u0027s Eye View",
                          "description":  "A spy-satellite simulator in your browser, Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.",
-                         "version":  "1.0.1",
+                         "version":  "1.0.2",
                          "author":  "bilawalsidhu",
                          "category":  "Application",
                          "path":  "desktop/container/applications/God\u0027s Eye View",
-                         "url":  "gods-eye-view-v1.0.1/Gods-Eye-View.zip",
-                         "sha256":  "657ffd2d55b6520df26cad9db8b7302526490cea06c641fd85cee4a2defeaac3",
-                         "size":  135888,
+                         "url":  "gods-eye-view-v1.0.2/Gods-Eye-View.zip",
+                         "sha256":  "087032bab96d05941a7181647b013d1163af9ce9fb52b8cc3c194c238fa2c77b",
+                         "size":  140429,
                          "art":  {
                                      "logo":  "art/gods-eye-view/desktop_logo.png"
                                  },
@@ -257,16 +257,16 @@
                          "id":  "window-95",
                          "name":  "Window 95",
                          "description":  "A Java application that uses the JPC emulator to boot and run a real Windows 95 installation, launching it as a virtual PC.",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "Application",
                          "path":  "desktop/container/applications/Window 95",
-                         "url":  "window-95-v1.0.0/Window-95.zip",
-                         "sha256":  "9619bcc263e6cc4a37bb990ff1d6d6f112ac21e725665cc57f505060f54bccb7",
-                         "size":  81995207,
+                         "url":  "window-95-v1.0.1/Window-95.zip",
+                         "sha256":  "940d919f7298a615c418e722e0bcdac17a13915960bbeee6ea91fcd97e1413bf",
+                         "size":  81775630,
                          "art":  {
-                                     "logo":  "art/window-95/desktop_logo.png",
-                                     "banner":  "art/window-95/banner.png"
+                                     "banner":  "art/window-95/banner.png",
+                                     "logo":  "art/window-95/desktop_logo.png"
                                  },
                          "requires":  [
                                           {
@@ -316,15 +316,72 @@
                          "id":  "openidea",
                          "name":  "OpenIDEA",
                          "description":  "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "l0ng-ai",
                          "category":  "Developer Tool",
                          "path":  "desktop/container/applications/OpenIDEA",
-                         "url":  "openidea-v1.0.0/OpenIDEA.zip",
-                         "sha256":  "8e40bd3860e5599ab8a6c4956f129298bb5a6692be069edced1e6f75ced421ce",
-                         "size":  33244,
+                         "url":  "openidea-v1.0.1/OpenIDEA.zip",
+                         "sha256":  "c9c2d8a08eab5c580c83dbdc0d3a4eb129275b5e7ed24cc7b38248cacccad49f",
+                         "size":  34261,
                          "art":  {
                                      "logo":  "art/openidea/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "autopsy",
+                         "name":  "Autopsy",
+                         "description":  "Autopsy, the open-source digital forensics platform, inside Triton. The first open downloads Autopsy (about 1.2 GB) into Triton\u0027s folder and unpacks it there without installing anything on the PC, with its settings kept in your Triton user folder. Windows only.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Security",
+                         "path":  "desktop/container/applications/Autopsy",
+                         "url":  "autopsy-v1.0.0/Autopsy.zip",
+                         "sha256":  "28088d5093e2e820e6de48ef71c7f03679f2f702c9e0c95f439326172adefbef",
+                         "size":  114101,
+                         "art":  {
+                                     "logo":  "art/autopsy/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "geo-sleuth",
+                         "name":  "Geo Sleuth",
+                         "description":  "Find where a photo was taken. Runs the open-source geo-sleuth method (clues, reverse image search, satellite and street-view matching, sun and shadow math) through a headless agent as a background job, and reports the coordinates, error radius and evidence when it\u0027s done. Troy can start a search too: ask him where a photo was taken.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Security",
+                         "path":  "desktop/container/applications/Geo Sleuth",
+                         "url":  "geo-sleuth-v1.0.0/Geo-Sleuth.zip",
+                         "sha256":  "ded0d55fd7dff0331f8f9d02173c465e032b3404105c0c84e074862154a50582",
+                         "size":  90204
+                     },
+                     {
+                         "id":  "ghidra",
+                         "name":  "Ghidra",
+                         "description":  "Ghidra, the open-source reverse-engineering suite, inside Triton. The first open downloads Ghidra (about 570 MB) into Triton\u0027s folder and runs it on Triton\u0027s own Java, with its settings kept in your Triton user folder.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Developer Tool",
+                         "path":  "desktop/container/applications/Ghidra",
+                         "url":  "ghidra-v1.0.0/Ghidra.zip",
+                         "sha256":  "78f3fb28c96d67f2e186c2158f9778cd0dcb95f7cf1bcb8ceaa7e00385b4821e",
+                         "size":  47196,
+                         "art":  {
+                                     "logo":  "art/ghidra/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "jd-gui",
+                         "name":  "JD-GUI",
+                         "description":  "JD-GUI, the Java decompiler, inside Triton. Opens JAR, class, WAR and EAR files and shows their bytecode as readable Java source. Runs on Triton\u0027s own Java, with its settings kept in your Triton user folder. Launch with Codex sends files here.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Developer Tool",
+                         "path":  "desktop/container/applications/JD-GUI",
+                         "url":  "jd-gui-v1.0.0/JD-GUI.zip",
+                         "sha256":  "9131f493a71b11a2547621681ce84dfd37a6d89bc37cfe9dc015177efc31b33e",
+                         "size":  2976310,
+                         "art":  {
+                                     "logo":  "art/jd-gui/desktop_logo.png"
                                  }
                      }
                  ]
