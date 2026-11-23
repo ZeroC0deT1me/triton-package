@@ -587,6 +587,21 @@
                          "art":  {
                                      "logo":  "art/media-player/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "folder-explorer",
+                         "name":  "Folder Explorer",
+                         "description":  "Browse the folders and files on this computer and open them in Triton apps.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/Folder Explorer",
+                         "url":  "folder-explorer-v1.0.0/Folder-Explorer.zip",
+                         "sha256":  "e1ecb44d8bd4c693b0added99fb2eaab5bad1f83bbc5dd63f05e3da7099553ab",
+                         "size":  1469172,
+                         "art":  {
+                                     "logo":  "art/folder-explorer/desktop_logo.png"
+                                 }
                      }
                  ]
 }
