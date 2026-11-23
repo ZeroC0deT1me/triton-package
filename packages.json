@@ -234,13 +234,13 @@
                          "id":  "gods-eye-view",
                          "name":  "God\u0027s Eye View",
                          "description":  "A spy-satellite simulator in your browser, Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.",
-                         "version":  "1.0.2",
+                         "version":  "1.0.3",
                          "author":  "bilawalsidhu",
                          "category":  "Application",
                          "path":  "desktop/container/applications/God\u0027s Eye View",
-                         "url":  "gods-eye-view-v1.0.2/Gods-Eye-View.zip",
-                         "sha256":  "087032bab96d05941a7181647b013d1163af9ce9fb52b8cc3c194c238fa2c77b",
-                         "size":  140429,
+                         "url":  "gods-eye-view-v1.0.3/Gods-Eye-View.zip",
+                         "sha256":  "03d99754e710f6d0ccc12a95b9a1d9ac9eda2266960e5c16f42350e788f3dd4d",
+                         "size":  140998,
                          "art":  {
                                      "banner":  "art/gods-eye-view/banner.png",
                                      "logo":  "art/gods-eye-view/desktop_logo.png"
@@ -334,13 +334,13 @@
                          "id":  "autopsy",
                          "name":  "Autopsy",
                          "description":  "Autopsy, the open-source digital forensics platform, inside Triton. The first open downloads Autopsy (about 1.2 GB) into Triton\u0027s folder and unpacks it there without installing anything on the PC, with its settings kept in your Triton user folder. Windows only.",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
+                         "version":  "1.0.1",
+                         "author":  "sleuthkit",
                          "category":  "Security",
                          "path":  "desktop/container/applications/Autopsy",
-                         "url":  "autopsy-v1.0.0/Autopsy.zip",
-                         "sha256":  "28088d5093e2e820e6de48ef71c7f03679f2f702c9e0c95f439326172adefbef",
-                         "size":  114101,
+                         "url":  "autopsy-v1.0.1/Autopsy.zip",
+                         "sha256":  "f8f6a2dd0f8f7a3641907aacf90fc3f6ea3d8f4f4605cf46b2aa1a49c1affb92",
+                         "size":  114275,
                          "art":  {
                                      "logo":  "art/autopsy/desktop_logo.png"
                                  }
@@ -349,25 +349,25 @@
                          "id":  "geo-sleuth",
                          "name":  "Geo Sleuth",
                          "description":  "Find where a photo was taken. Runs the open-source geo-sleuth method (clues, reverse image search, satellite and street-view matching, sun and shadow math) through a headless agent as a background job, and reports the coordinates, error radius and evidence when it\u0027s done. Troy can start a search too: ask him where a photo was taken.",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
+                         "version":  "1.0.1",
+                         "author":  "Oldcircle",
                          "category":  "Security",
                          "path":  "desktop/container/applications/Geo Sleuth",
-                         "url":  "geo-sleuth-v1.0.0/Geo-Sleuth.zip",
-                         "sha256":  "ded0d55fd7dff0331f8f9d02173c465e032b3404105c0c84e074862154a50582",
-                         "size":  90204
+                         "url":  "geo-sleuth-v1.0.1/Geo-Sleuth.zip",
+                         "sha256":  "788379e8564e6c797c0222452d06896c7fe2d953eef4a6e1f7027e61fd2852f9",
+                         "size":  90343
                      },
                      {
                          "id":  "ghidra",
                          "name":  "Ghidra",
                          "description":  "Ghidra, the open-source reverse-engineering suite, inside Triton. The first open downloads Ghidra (about 570 MB) into Triton\u0027s folder and runs it on Triton\u0027s own Java, with its settings kept in your Triton user folder.",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
+                         "version":  "1.0.1",
+                         "author":  "National Security Agency (NSA)",
                          "category":  "Developer Tool",
                          "path":  "desktop/container/applications/Ghidra",
-                         "url":  "ghidra-v1.0.0/Ghidra.zip",
-                         "sha256":  "78f3fb28c96d67f2e186c2158f9778cd0dcb95f7cf1bcb8ceaa7e00385b4821e",
-                         "size":  47196,
+                         "url":  "ghidra-v1.0.1/Ghidra.zip",
+                         "sha256":  "793e397f48616f408138a8b75b287405fbef182dd0408d00aebb74c7589c5ee7",
+                         "size":  47299,
                          "art":  {
                                      "logo":  "art/ghidra/desktop_logo.png"
                                  }
@@ -376,13 +376,13 @@
                          "id":  "jd-gui",
                          "name":  "JD-GUI",
                          "description":  "JD-GUI, the Java decompiler, inside Triton. Opens JAR, class, WAR and EAR files and shows their bytecode as readable Java source. Runs on Triton\u0027s own Java, with its settings kept in your Triton user folder. Launch with Codex sends files here.",
-                         "version":  "1.0.0",
-                         "author":  "ZeroC0deT1me",
+                         "version":  "1.0.1",
+                         "author":  "java-decompiler",
                          "category":  "Developer Tool",
                          "path":  "desktop/container/applications/JD-GUI",
-                         "url":  "jd-gui-v1.0.0/JD-GUI.zip",
-                         "sha256":  "9131f493a71b11a2547621681ce84dfd37a6d89bc37cfe9dc015177efc31b33e",
-                         "size":  2976310,
+                         "url":  "jd-gui-v1.0.1/JD-GUI.zip",
+                         "sha256":  "4532b5b6db2121223e907d80555a53df9848e511d82f1861ebb2947b21f3f76f",
+                         "size":  2977222,
                          "art":  {
                                      "logo":  "art/jd-gui/desktop_logo.png"
                                  }
