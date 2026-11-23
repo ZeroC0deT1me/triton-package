@@ -106,13 +106,13 @@
                          "id":  "watchtower",
                          "name":  "WatchTower",
                          "description":  "Privacy and Security Management Interface for Triton",
-                         "version":  "0.0.0",
+                         "version":  "1.0.0",
                          "author":  "ZeroC0deT1me",
                          "category":  "Security",
                          "path":  "desktop/container/applications/WatchTower",
-                         "url":  "watchtower-v0.0.0/WatchTower.zip",
-                         "sha256":  "0000000000000000000000000000000000000000000000000000000000000000",
-                         "size":  0,
+                         "url":  "watchtower-v1.0.0/WatchTower.zip",
+                         "sha256":  "9ad917faf974e8444c6588e3da01edf9047df66e612cf320816a5a5b79b634f1",
+                         "size":  1241133,
                          "art":  {
                                      "logo":  "art/watchtower/desktop_logo.png"
                                  }
@@ -382,6 +382,207 @@
                          "size":  2976310,
                          "art":  {
                                      "logo":  "art/jd-gui/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "package-manager",
+                         "name":  "Package Manager",
+                         "description":  "The Triton app store: browse the triton-package catalogue, then install, update and remove apps. Triton keeps it up to date on its own.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/Package Manager",
+                         "url":  "package-manager-v1.0.0/Package-Manager.zip",
+                         "sha256":  "1d05cad03e63a95bd2bf238e170a0e368a74df5fe6dc48f6929ca967c85cb8f1",
+                         "size":  446511,
+                         "art":  {
+                                     "logo":  "art/package-manager/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "transfer",
+                         "name":  "Transfer",
+                         "description":  "Move Triton between this computer and drives: PortSync with marked drives, review files staged from a drive, or duplicate the whole install onto one.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Tool",
+                         "path":  "desktop/container/applications/Transfer",
+                         "url":  "transfer-v1.0.0/Transfer.zip",
+                         "sha256":  "e84386aa3486e4e9fe72ec680e2938b778785541d3b3ae899e84c1557e343b92",
+                         "size":  56279,
+                         "art":  {
+                                     "logo":  "art/transfer/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "image-viewer",
+                         "name":  "Image Viewer",
+                         "description":  "Opens pictures from anywhere in Triton, with zoom, pan, folder navigation and an immersive full-screen mode.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Image Viewer",
+                         "url":  "image-viewer-v1.0.0/Image-Viewer.zip",
+                         "sha256":  "6b98a92a62427cfe8469a629f96a2ba58439994792e74154b4088cd8e81236c4",
+                         "size":  25630,
+                         "art":  {
+                                     "logo":  "art/image-viewer/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "triton-store",
+                         "name":  "Triton Store",
+                         "description":  "The Package Manager catalogue in an app-store look: Discover, Apps, Categories, Installed and Updates. Same catalogue and installs as Package Manager.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Application",
+                         "path":  "desktop/container/applications/Triton Store",
+                         "url":  "triton-store-v1.0.0/Triton-Store.zip",
+                         "sha256":  "d7de1671402e3b8200e8fb5afc7a64549a91ad0611bd3ecea372eb69af4ce5e7",
+                         "size":  158784,
+                         "art":  {
+                                     "logo":  "art/triton-store/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "task-manager",
+                         "name":  "Task Manager",
+                         "description":  "Desktop tile for the Triton Task Manager: processes, performance, CPU and memory use, and ending tasks.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "System Tool",
+                         "path":  "desktop/container/applications/Task Manager",
+                         "url":  "task-manager-v1.0.0/Task-Manager.zip",
+                         "sha256":  "c4669adf774b4f684d8c9ee3b14e28e758757119dcb72642dd9ba52f51da5dbf",
+                         "size":  25880,
+                         "art":  {
+                                     "logo":  "art/task-manager/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "contacts",
+                         "name":  "Contacts",
+                         "description":  "Everyone Triton knows, one card each: names, face and voice profiles and other details.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Contacts",
+                         "url":  "contacts-v1.0.0/Contacts.zip",
+                         "sha256":  "353daa4a340c6de106ac92ff96809182ddd4c90197ee6ed30a5dc45da3b9e145",
+                         "size":  18908,
+                         "art":  {
+                                     "logo":  "art/contacts/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "calendar",
+                         "name":  "Calendar",
+                         "description":  "Appointments, meetings, calls and events, and who they are with, as a day timeline, a week by the hour or a month at a glance.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Calendar",
+                         "url":  "calendar-v1.0.0/Calendar.zip",
+                         "sha256":  "cb2b45bec26752cede71ec2138ea983f503f56bc842b87c610e92090f59c3240",
+                         "size":  16119,
+                         "art":  {
+                                     "logo":  "art/calendar/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "phone",
+                         "name":  "Phone",
+                         "description":  "Triton as a telephone: today\u0027s calls, call history, a keypad, your contacts and calls to make later.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Phone",
+                         "url":  "phone-v1.0.0/Phone.zip",
+                         "sha256":  "0a7630c7d900db632ced1ed571b9409b3f4837227e99b5ccad1056b5dbbf5321",
+                         "size":  22922,
+                         "art":  {
+                                     "logo":  "art/phone/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "forge",
+                         "name":  "Forge",
+                         "description":  "An AI workspace: chat with an assistant and work with files and workflows.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Forge",
+                         "url":  "forge-v1.0.0/Forge.zip",
+                         "sha256":  "df25f22fd56cea2ec4432e79578bbb7c8eab1b880a79ba74d1b5619661f80578",
+                         "size":  961905,
+                         "art":  {
+                                     "logo":  "art/forge/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "troy",
+                         "name":  "Troy",
+                         "description":  "Troy\u0027s chat page in Meridian. Pick Troy in the model menu and he answers like he does by voice, running his skills (volume, apps and the rest) and speaking the reply, or pick the local Qwen model for a free chat on this computer. The first open sets up Qwen inside Triton\u0027s folder; after that it opens right away.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Meridian Application",
+                         "path":  "desktop/container/applications/Troy",
+                         "url":  "troy-v1.0.0/Troy.zip",
+                         "sha256":  "3896629f365bd0b0ef7bb52e762786391493b167b1aebac509d6a35b5d6c50ca",
+                         "size":  39997,
+                         "art":  {
+                                     "logo":  "art/troy/desktop_logo.png"
+                                 },
+                         "requires":  [
+                                          {
+                                              "id":  "meridian",
+                                              "min":  "1.0.0"
+                                          }
+                                      ]
+                     },
+                     {
+                         "id":  "calculator",
+                         "name":  "Calculator",
+                         "description":  "Scientific calculator with typed expressions and degree or radian trigonometry.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Calculator",
+                         "url":  "calculator-v1.0.0/Calculator.zip",
+                         "sha256":  "e94139f7b0a00162521256267cc5ed86930cdd97d7b6228fc097ad5e3b573b2b",
+                         "size":  927036,
+                         "art":  {
+                                     "logo":  "art/calculator/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "book-reader",
+                         "name":  "Book Reader",
+                         "description":  "Reads PDF, EPUB and TXT as a two-page spread and can read aloud sentence by sentence. Comes with two classic public-domain books.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Book Reader",
+                         "url":  "book-reader-v1.0.0/Book-Reader.zip",
+                         "sha256":  "f9d46276f8b0d365f4596e1f209d9aefa7decf836741a3ba44b5b0ff6944d483",
+                         "size":  2119519,
+                         "art":  {
+                                     "logo":  "art/book-reader/desktop_logo.png"
+                                 }
+                     },
+                     {
+                         "id":  "media-player",
+                         "name":  "Media Player",
+                         "description":  "Plays music and video from anywhere in Triton, with your Music library, a queue, shuffle, repeat and full screen.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Media Player",
+                         "url":  "media-player-v1.0.0/Media-Player.zip",
+                         "sha256":  "f34406822318dc1a0b9487fc4ea1472e96001678dc62dd753bbe6681449a093d",
+                         "size":  28811,
+                         "art":  {
+                                     "logo":  "art/media-player/desktop_logo.png"
                                  }
                      }
                  ]
