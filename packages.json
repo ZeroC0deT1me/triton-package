@@ -602,6 +602,21 @@
                          "art":  {
                                      "logo":  "art/folder-explorer/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "recorder",
+                         "name":  "Recorder",
+                         "description":  "Record a display or a window with microphone, system audio and camera, then polish it: auto-zooms on your clicks, a smooth animated cursor, a styled frame on a wallpaper, a camera bubble, and trims, cuts, speed changes and notes on a timeline. Exports MP4 or GIF.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/Recorder",
+                         "url":  "recorder-v1.0.0/Recorder.zip",
+                         "sha256":  "2a0116adc75355b6bd55e34f192c4607b08cd36e4703a602d050a816643436d8",
+                         "size":  27327,
+                         "art":  {
+                                     "logo":  "art/recorder/desktop_logo.png"
+                                 }
                      }
                  ]
 }
