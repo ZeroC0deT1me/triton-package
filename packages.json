@@ -391,13 +391,13 @@
                          "id":  "package-manager",
                          "name":  "Package Manager",
                          "description":  "The Triton app store: browse the triton-package catalogue, then install, update and remove apps. Triton keeps it up to date on its own.",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
                          "path":  "desktop/container/applications/Package Manager",
-                         "url":  "package-manager-v1.0.0/Package-Manager.zip",
-                         "sha256":  "1d05cad03e63a95bd2bf238e170a0e368a74df5fe6dc48f6929ca967c85cb8f1",
-                         "size":  446511,
+                         "url":  "package-manager-v1.0.1/Package-Manager.zip",
+                         "sha256":  "c1f4eca5fb956e7dc51505d9f3ec66e34859452919b86ac923e2a9b1995f6b56",
+                         "size":  450777,
                          "art":  {
                                      "logo":  "art/package-manager/desktop_logo.png"
                                  }
@@ -436,13 +436,13 @@
                          "id":  "triton-store",
                          "name":  "Triton Store",
                          "description":  "The Package Manager catalogue in an app-store look: Discover, Apps, Categories, Installed and Updates. Same catalogue and installs as Package Manager.",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "System Application",
                          "path":  "desktop/container/applications/Triton Store",
-                         "url":  "triton-store-v1.0.0/Triton-Store.zip",
-                         "sha256":  "d7de1671402e3b8200e8fb5afc7a64549a91ad0611bd3ecea372eb69af4ce5e7",
-                         "size":  158784,
+                         "url":  "triton-store-v1.0.1/Triton-Store.zip",
+                         "sha256":  "661c72971d33734eac6d6ce3193a8b0fbf2f0c477f085c4ef1bbea189dd0d788",
+                         "size":  160312,
                          "art":  {
                                      "logo":  "art/triton-store/desktop_logo.png"
                                  }
