@@ -297,13 +297,13 @@
                          "id":  "games",
                          "name":  "Games",
                          "description":  "Your game library in one place: browse, search and play",
-                         "version":  "1.0.0",
+                         "version":  "1.0.1",
                          "author":  "ZeroC0deT1me",
                          "category":  "Application",
                          "path":  "desktop/container/applications/Games",
-                         "url":  "games-v1.0.0/Games.zip",
-                         "sha256":  "2b03bf556801d179842d7492aea9004b81434baa75f1e1f8c80d411294a056c8",
-                         "size":  85880,
+                         "url":  "games-v1.0.1/Games.zip",
+                         "sha256":  "c808341adfd10839c137f1ad3ca45a4221199ef930e52b1386f9bdb5f10bba51",
+                         "size":  74007,
                          "art":  {
                                      "logo":  "art/games/desktop_logo.png",
                                      "banner":  "art/games/banner-v2.png"
