@@ -617,6 +617,25 @@
                          "art":  {
                                      "logo":  "art/recorder/desktop_logo.png"
                                  }
+                     },
+                     {
+                         "id":  "gba",
+                         "name":  "GBA",
+                         "description":  "Game Boy Advance emulator with sound, battery saves (SRAM, Flash, EEPROM), the cartridge clock, save states, fast-forward and a debugger. Bring your own .gba or .zip ROMs; no BIOS file needed.",
+                         "version":  "1.0.0",
+                         "author":  "ZeroC0deT1me",
+                         "category":  "Application",
+                         "path":  "desktop/container/applications/GBA",
+                         "url":  "gba-v1.0.0/GBA.zip",
+                         "sha256":  "fd2c0369312c469a8c526e77b8726c00db4272b7a3b02e3bcbe40261c5daabbc",
+                         "size":  87491,
+                         "art":  {
+                                     "logo":  "art/gba/desktop_logo.png"
+                                 },
+                         "categories":  [
+                                            "Application",
+                                            "Games"
+                                        ]
                      }
                  ]
 }
